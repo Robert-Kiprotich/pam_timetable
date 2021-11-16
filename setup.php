@@ -9,15 +9,7 @@
 	include("$curr_dir/language.php");
 	include("$curr_dir/db.php");
 
-	/*
-		Determine execution scenario ...
-		this script is called in 1 of 5 scenarios:
-			1. to display the setup instructions no $_GET['show-form']
-			2. to display the setup form $_GET['show-form'], no $_POST['test'], no $_POST['submit']
-			3. to test the db info, $_POST['test'] no $_POST['submit']
-			4. to save setup data, $_POST['submit']
-			5. to show final success message, $_GET['finish']
-		below here, we determine which scenario is being called
+	
 	*/
 	$submit = $test = $form = $finish = false; 
 	(isset($_POST['submit'])   ? $submit = true :
@@ -33,7 +25,7 @@
 	}
 
 	function isEmail($email){
-		if(preg_match('/^([*+!.&#$¦\'\\%\/0-9a-z^_`{}=?~:-]+)@(([0-9a-z-]+\.)+[0-9a-z]{2,45})$/i', $email)){
+		if(preg_match('/^([*+!.&#$ï¿½\'\\%\/0-9a-z^_`{}=?~:-]+)@(([0-9a-z-]+\.)+[0-9a-z]{2,45})$/i', $email)){
 			return $email;
 		}else{
 			return FALSE;

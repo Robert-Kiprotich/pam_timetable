@@ -4,12 +4,7 @@
 
 <?php
 	/*
-		Classes of first and other blocks
-		---------------------------------
-		For possible classes, refer to the Bootstrap grid columns, panels and buttons documentation:
-			Grid columns: http://getbootstrap.com/css/#grid
-			Panels: http://getbootstrap.com/components/#panels
-			Buttons: http://getbootstrap.com/css/#buttons
+	
 	*/
 	$block_classes = array(
 		'first' => array(

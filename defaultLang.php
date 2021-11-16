@@ -1,13 +1,6 @@
 <?php
 
-	// IMPORTANT:
-	// ==========
-	// If you wish to translate the interface of AppGini,
-	// DO NOT TRANSLATE THIS FILE.
-	//
-	// Instead, you should translate the language.php file.
-	// =====================================================
-
+	
 
 	// general config
 	// location of uploads folder

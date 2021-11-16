@@ -1,16 +1,6 @@
 <?php
 
-	// IMPORTANT:
-	// ==========
-	// When translating, only translate the strings that are
-	// TO THE RIGHT OF the equal sign (=).
-	//
-	// Do NOT translate the strings between square brackets ([]) or <>
-	//
-	// Also, leave the text between < and > untranslated.
-	//
-	// =====================================================
-
+	
 	// incHeader.php
 	$Translation['membership management'] = "Membership Management";
 	$Translation['password mismatch'] = "Password doesn\'t match.";
